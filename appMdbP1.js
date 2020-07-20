@@ -1,7 +1,5 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const ObjectID  = require('mongodb').ObjectID;
-const MongoClient = require('mongodb').MongoClient;
 const dotenv = require('dotenv').config();
 
 const StudentsController = require('./controllers/students')
